@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj": {}
+    "C:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj": {
+    "C:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj",
+        "projectUniqueName": "C:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj",
         "projectName": "chat",
-        "projectPath": "c:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj",
+        "projectPath": "C:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\chat.csproj",
         "packagesPath": "C:\\Users\\Harry\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\obj\\",
+        "outputPath": "C:\\Users\\Harry\\Desktop\\бекнасобес\\ChatApiNet\\chat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "TextCopy": {
+              "target": "Package",
+              "version": "[6.2.1, )"
             }
           },
           "imports": [
