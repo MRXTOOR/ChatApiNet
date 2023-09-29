@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "dotenv.net/3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
         "type": "package",
         "compile": {
@@ -50,6 +59,20 @@
     }
   },
   "libraries": {
+    "dotenv.net/3.1.2": {
+      "sha512": "lFm4hGX9JkNtAF36Uz4C3WT7MC6Ys802k0cPvlln8ydmH67GQjnToH+w645tQm1czAjW/V6tPE088lD77sYFGA==",
+      "type": "package",
+      "path": "dotenv.net/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotenv.net.3.1.2.nupkg.sha512",
+        "dotenv.net.nuspec",
+        "lib/netstandard1.6/dotenv.net.dll",
+        "lib/netstandard2.0/dotenv.net.dll",
+        "lib/netstandard2.1/dotenv.net.dll"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
       "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
       "type": "package",
@@ -137,7 +160,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Newtonsoft.Json >= 13.0.3",
-      "TextCopy >= 6.2.1"
+      "TextCopy >= 6.2.1",
+      "dotenv.net >= 3.1.2"
     ]
   },
   "packageFolders": {
@@ -192,6 +216,10 @@
           "TextCopy": {
             "target": "Package",
             "version": "[6.2.1, )"
+          },
+          "dotenv.net": {
+            "target": "Package",
+            "version": "[3.1.2, )"
           }
         },
         "imports": [
